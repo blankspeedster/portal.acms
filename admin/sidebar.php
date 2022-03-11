@@ -138,11 +138,11 @@ a:visited {
       <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#buildings" aria-expanded="true" aria-controls="buildings">
           <i class="fas fa-search-location"></i>
-          <span>2021 Election</span>
+          <span>2022 Election</span>
         </a>
         <div id="buildings" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Manage 2021 Election</h6>
+            <h6 class="collapse-header">Manage 2022 Election</h6>
             <a class="collapse-item" href="manage_candidates.php"><i class="fas fa-plus"></i> Add / Edit Candidate</a>
             <a class="collapse-item" href="view_voter_status.php"><i class="fas fa-eye"></i> View Voter's Status</a>
             <a class="collapse-item" href="view_election_status.php"><i class="fas fa-eye"></i> View Election status</a>

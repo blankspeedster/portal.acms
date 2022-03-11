@@ -41,7 +41,7 @@
                                 <h6 class="m-0 font-weight-bold" style="color: white;">ACMS Local Elections</h6>
                             </div>
                             <div class="card-body">
-                                <div style="text-align: center;">
+                                <div style="text-align: center; display: none;">
                                     ACMS Local Elections 2021 is now close. Thank you
                                 </div>
                                 <!-- Election Day 2021 Form Here -->
@@ -57,10 +57,10 @@
                                     <?php 
                                         $getYourVotes = mysqli_query($mysqli, "SELECT * FROM tally t JOIN candidates c ON c.id = t.candidate_id WHERE t.voter_id = '$user_id' ");
                                     ?>
-                                    <div style="text-align: center;" style="display: none;">
+                                    <div style="text-align: center;">
                                         Your vote has been uploaded. Here is the summary of your ballot.
                                     </div>
-                                    <table class="table" style="display: none;">
+                                    <table class="table" >
                                         <thead>
                                             <th style="text-align: center;">Candidate's Name</th>
                                         </thead>
@@ -80,9 +80,9 @@
         <!--                         </div>-->
                                 <?php endif ?>
                                 <!-- End Get Summary of Votes-->
-                                <form method="post" action="process_election.php" style="<?php if($voteRecord>=1){echo 'display: none;';} ?> display: none;" >
+                                <form method="post" action="process_election.php" style="<?php if($voteRecord>=1){echo 'display: none;';} ?>" >
                                     <center>
-                                        <h4>Local Elections<br>March 14, 2021</h4>
+                                        <h4>Local Elections<br>March 13, 2022</h4>
                                         <h6>Please cast your votes</h6>
                                     </center>
                                     <table class="table table-bordered" id="candidateTable" width="100%" cellspacing="0">
