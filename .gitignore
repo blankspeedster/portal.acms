@@ -2,7 +2,7 @@
 admin/dbh.php
 dbh.php
 storage/proof_of_payment/*
-/admin/vendor
+#/admin/vendor
 gencert.php
 
 # Do NOT Ignore
