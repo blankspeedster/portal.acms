@@ -20,6 +20,7 @@ class ComposerStaticInit26dbc8e3ddd4dc143de494da19465b0a
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Svg\\' => 4,
+            'Sabberworm\\CSS\\' => 15,
         ),
         'P' => 
         array (
@@ -60,6 +61,10 @@ class ComposerStaticInit26dbc8e3ddd4dc143de494da19465b0a
         'Svg\\' => 
         array (
             0 => __DIR__ . '/..' . '/phenx/php-svg-lib/src/Svg',
+        ),
+        'Sabberworm\\CSS\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
         ),
         'Psr\\SimpleCache\\' => 
         array (
@@ -105,13 +110,6 @@ class ComposerStaticInit26dbc8e3ddd4dc143de494da19465b0a
     );
 
     public static $prefixesPsr0 = array (
-        'S' => 
-        array (
-            'Sabberworm\\CSS' => 
-            array (
-                0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib',
-            ),
-        ),
         'H' => 
         array (
             'HTMLPurifier' => 
