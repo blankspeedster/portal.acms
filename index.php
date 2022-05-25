@@ -41,7 +41,7 @@
                                 <h6 class="m-0 font-weight-bold" style="color: white;">ACMS Local Elections</h6>
                             </div>
                             <div class="card-body">
-                                <div style="text-align: center; display: none;">
+                                <div style="text-align: center;">
                                     ACMS Local Elections 2021 is now close. Thank you
                                 </div>
                                 <!-- Election Day 2021 Form Here -->
@@ -80,12 +80,13 @@
         <!--                         </div>-->
                                 <?php endif ?>
                                 <!-- End Get Summary of Votes-->
-                                <form method="post" action="process_election.php" style="<?php if($voteRecord>=1){echo 'display: none;';} ?>" >
+                                <span style="display: none !important;">
+                                <form method="post" action="process_election.php" style="<?php if($voteRecord>=1){echo 'display: none;';} ?>">
                                     <center>
                                         <h4>Local Elections<br>March 13, 2022</h4>
                                         <h6>Please cast your votes</h6>
                                     </center>
-                                    <table class="table table-bordered" id="candidateTable" width="100%" cellspacing="0">
+                                    <table class="table table-bordered" id="candidateTable" width="100%" cellspacing="0" >
                                         <thead>
                                             <th>Tick checkbox to include the names in the ballot</th>
                                             <th width="75%">Full Name</th>
@@ -130,6 +131,7 @@
                                         <center>Please update your <a href="profile.php">Profile</a> first to cast your vote(s).</center>
                                     <?php endif ?>
                                 </form>
+                                </span>
                                 <!-- End Election Day Form here -->
                             <div class="text-center">
                             </div>
